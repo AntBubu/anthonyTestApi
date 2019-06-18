@@ -33,8 +33,26 @@ Locate the ```<mirrors>``` section in settings.xml and add a new mirror
 </mirror>
 ```
 
-2. Confirm you can retrieve all dependencies by running
+Confirm you can retrieve all dependencies by running
 ```
 mvn dependency:resolve
 ```
+Ensure that you have the Intellij Cucumber Plugin
 
+Install the **Cucumber for Java** plugin:
+
+From the top left corner select
+```concept
+IntelliJ IDEA > Preferences > Plugins > Browse repositories >
+Search for "Cucumber for Java" > install and restart
+```
+
+2. What you'll find
+
+Under the */Users/your_user_name/your_location/anthonyTestApi/src/test/java* you'll find my stepsDefinitions classes and my runner.
+Under the */Users/bussea01/Test/new/anthonyTestApi/src/test/resources* you'll find my features files.
+
+3. Reports
+
+One of the great thing about Serenity is its reporting tool. After you ran the tests via IntelliJ (or something else),
+navigate to the following path using your finder /Users/bussea01/Test/new/anthonyTestApi/target/site/serenity/index.html
