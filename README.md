@@ -50,10 +50,11 @@ Search for "Cucumber for Java" > install and restart
 2. What you'll find
 
 Under the **/Users/*{your_user_name}*/*{your_location}*/anthonyTestApi/src/test/java** you'll find my stepsDefinitions classes and my runner.
+
 Under the **/Users/*{your_user_name}*/*{your_location}*/anthonyTestApi/src/test/resources** you'll find my features files.
 
 3. Reports
 
 One of the great thing about Serenity is its reporting tool. After you ran the tests via IntelliJ (or something else),
-navigate to the following path using your finder **/Users/*{your_user_name}*/*{your_location}*/anthonyTestApi/target/site/serenity/index.html**
+navigate to the following path using your finder **/Users/*{your_user_name}*/*{your_location}*/anthonyTestApi/target/site/serenity/index.html**.
 Then double click on it to get a nice HTML report on your browser.
